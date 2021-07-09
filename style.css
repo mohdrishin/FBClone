@@ -2,5 +2,53 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    /* font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif; */
+}
+body{
+    background: #f1f2f6;
     font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 57px;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    /* justify-content: space-between; */
+}
+
+nav .left-header{
+    display: flex;
+    align-items: center;
+    margin: 0 12px;
+}
+.left-header img{
+    width: 38px;
+    margin-right: 10px;
+}
+.left-header .search-box{
+    width: 242px;
+    height: 38px;
+    border-radius: 20px;
+    background-color: #f1f2f7;
+    display: flex;
+    align-items: center;
+    padding:0 15px;
+    border: 1px solid #f1f2f7;
+}
+.search-box .fas{
+    margin-right: 5px;
+    color: #7a8087;
+}
+.search-box input{
+    border:0;
+    outline: none;
+    /* background-color: #f1f2f7; */
+    background: transparent;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #7a8087;
 }
