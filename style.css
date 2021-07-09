@@ -70,7 +70,7 @@ nav .center-header{
     display: flex;
     /* justify-content:space-between;
     height: auto; */
-    flex-basis: 45%;
+    flex-basis: 46%;
     margin-right: 12px;
 }
 .center-header .homeborder{
