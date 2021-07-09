@@ -225,8 +225,36 @@ nav .right-header{
 }
 .container .left-content{
     height: 100vh;
-    background-color: violet;
+    /* background-color: violet; */
     flex-basis: 24%;
     flex-direction: column;
     justify-content: flex-start;
+    padding-left: 14px;
+    padding-top: 18px;
+}
+.left-content .leftside-profile{
+    display: flex;
+    align-items: center;
+    font-family: var(--fb-font);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--text-color);
+    font-style: normal;
+    height: 50px;
+    width: 338px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.leftside-profile img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border:1px solid #000;
+    margin-right: 12px;
+    margin-left: 8px;
+}
+.left-content .leftside-profile:hover{
+    background-color: #e5e6ea;
+    border-radius: 4px;
 }
