@@ -229,8 +229,8 @@ nav .right-header{
     flex-basis: 24%;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 14px;
-    padding-top: 18px;
+    margin-left: 14px;
+    margin-top: 18px;
 }
 
 /* left side menus starts here */
@@ -301,3 +301,97 @@ hr{
     width: 92%;
     color: #e7e9ec;
 }
+
+/* left side shortcut menus starts here */
+.leftside-shortcuts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+.leftside-shortcuts span{
+    font-family: var(--fb-font);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #65676b;
+    font-style: normal;
+}
+.leftside-shortcuts .edit{
+    font-family: var(--fb-font);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #216fdb;
+    font-style: normal;
+    /* display: none; */
+    cursor:pointer;
+}
+.leftside-shortcuts .edit:after{
+    background-color: #e5e6ea;
+    border-radius: 4px;
+    border: 1px solid #e5e6ea;
+    /* display: inline-block; */
+}
+
+.shortcuts-groups{
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 14px;
+    margin-top: 18px;
+}
+.leftside-shortcuts-android, .leftside-shortcuts-python{
+    display: flex;
+    align-items: center;
+    font-family: var(--fb-font);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--text-color);
+    font-style: normal;
+    height: 54px;
+    width: 338px;
+    margin-right: 10px;
+    cursor: pointer;  
+}
+.leftside-shortcuts-android img, .leftside-shortcuts-python img{
+    width: 36px;
+    height: 36px;
+    /* border-radius: 50%;
+    border:1px solid #000; */
+    margin-right: 12px;
+}
+.leftside-shortcuts-android:hover, .leftside-shortcuts-python:hover{
+    background-color: #e5e6ea;
+    border-radius: 4px;
+}
+
+
+
+
+/* left side shortcut menus ends here */
+/* Footer additionals starts here */
+.footer-additionals{
+    margin-top: 10px;
+    max-width: 310px;
+    margin-left: 14px;
+}
+.footer-additionals ul{
+    list-style: none;
+}
+.footer-additionals ul li{
+    /* text-decoration: none; */
+    display: inline-block;
+    font-family: var(--fb-font);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #65676b;
+    font-style: normal;
+    padding-right: 8px;
+}
+
+/* Footer additionals end here */
