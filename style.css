@@ -395,3 +395,73 @@ hr{
 }
 
 /* Footer additionals end here */
+.mid-content{
+    display: flex;
+    flex-basis: 50%;
+    margin-right: 30px;
+    /* background-color:aquamarine */
+}
+
+
+/* Right Contents Starts Here */
+.right-content{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 22%;
+}
+.right-content span{
+    margin-top: 19px;
+    font-family: var(--fb-font);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #65676b;
+    font-style: normal;
+}
+.right-content hr{
+    margin-top: 15px;
+    color: #e7e9ec;
+    width: 100%;
+    /* margin-bottom: 10px; */
+}
+/* .rightside-mypages{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightside-mypages span{
+    font-family: var(--fb-font);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #65676b;
+    font-style: normal;
+}
+.shortcuts-mypages{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.shortcuts-mypages-one img{
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+    margin-top: 9px;
+    margin-left: 3px;
+}
+.shortcuts-mypages-one{
+    font-family: var(--fb-font);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--text-color);
+    font-style: normal;
+    height: 54px;
+    width: 338px;
+    cursor: pointer;  
+}
+.shortcuts-mypages-one:hover{
+    background-color: #e5e6ea;
+    border-radius: 4px;
+} */
