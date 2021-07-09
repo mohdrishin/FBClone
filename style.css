@@ -232,16 +232,33 @@ nav .right-header{
     padding-left: 14px;
     padding-top: 18px;
 }
-.left-content .leftside-profile{
+
+/* left side menus starts here */
+
+.leftside-profile, .leftside-friends, .leftside-pages, .leftside-groups, .leftside-marketplace, .leftside-watch, .leftside-events, .leftside-memories{
     display: flex;
     align-items: center;
     font-family: var(--fb-font);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     line-height: 20px;
     color: var(--text-color);
     font-style: normal;
-    height: 50px;
+    height: 54px;
+    width: 338px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.leftside-seemore{
+    display: flex;
+    align-items: center;
+    font-family: var(--fb-font);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--text-color);
+    font-style: normal;
+    height: 54px;
     width: 338px;
     margin-right: 10px;
     cursor: pointer;
@@ -254,7 +271,33 @@ nav .right-header{
     margin-right: 12px;
     margin-left: 8px;
 }
-.left-content .leftside-profile:hover{
+.leftside-friends img, .leftside-pages img, .leftside-groups img, .leftside-marketplace img, .leftside-watch img, .leftside-events img, .leftside-memories img{
+    width: 36px;
+    height: 36px;
+    /* border-radius: 50%;
+    border:1px solid #000; */
+    margin-right: 12px;
+    margin-left: 8px;
+}
+.leftside-seemore img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #e4e7eb;
+    margin-right: 12px;
+    margin-left: 8px;
+}
+
+/* All Leftsides:hoooover */
+.leftside-profile:hover, .leftside-friends:hover .leftside-pages:hover, .leftside-groups:hover, .leftside-marketplace:hover, .leftside-watch:hover, .leftside-events:hover, .leftside-memories:hover, .leftside-seemore:hover{
     background-color: #e5e6ea;
     border-radius: 4px;
+}
+
+/* left side menus ends here */
+
+hr{
+    margin-top: 10px;
+    width: 92%;
+    color: #e7e9ec;
 }
