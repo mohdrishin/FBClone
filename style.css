@@ -215,3 +215,16 @@ nav .right-header{
     margin: 13px;
 }
 /* Navigation Bar End Here*/
+
+/* Container Box StartsHer*/
+
+.container{
+    display: flex;
+}
+.container .left-content{
+    height: 100vh;
+    background-color: violet;
+    flex-basis: 24%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
