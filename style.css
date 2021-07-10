@@ -481,10 +481,22 @@ hr{
 /* Midbar - Story Cards Starts Here */
 
 .story-cards{
+    display: flex;
     height: 232px;
     width: 100%;
-    background-color: yellowgreen;
 }
+.story-cards .story-one{
+    flex-direction: column;
+    height: 198px;
+    width:110px;
+    background-color: turquoise;
+    margin-top: 17px;
+    margin-right: 10px;
+    margin-left: 3px;
+    border-radius: 12px;
+    border:1px solid transparent;
+}
+
 
 
 
