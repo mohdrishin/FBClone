@@ -395,12 +395,123 @@ hr{
 }
 
 /* Footer additionals end here */
+
 .mid-content{
     display: flex;
-    flex-basis: 50%;
-    margin-right: 30px;
+    flex-direction: column;
+    flex-basis: 40%;
+    margin-right: 110px;
+    margin-left: 86px;
     /* background-color:aquamarine */
 }
+.mid-content .topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.left-topbar{
+    height: 100%;
+    width: max-content;
+}
+.left-topbar .active-btn{
+    margin: 8px 6px 8px 3px;
+    height: 34px;
+    width: 65px;
+    border-radius: 20px;
+    border: 1px solid #dee7f6;
+    background-color: #dee7f6;
+    color: var(--fbblue-color);
+    font-family: var(--fb-font);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.left-topbar button{
+    margin-right: 6px;
+    border:0;
+    outline: none;
+    height: 34px;
+    width: 75px;
+    color: var(--fbblue-color);
+    font-family: var(--fb-font);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.left-topbar button:hover{
+    border: 1px solid #dee7f6;
+    background-color: #dee7f6;
+    border-radius: 20px;
+}
+.right-topbar{
+    height: 100%;
+}
+.right-topbar button{
+    height: 34px;
+    width: 44px;
+    margin-top: 8px;
+    margin-right: 6px;
+    border: 1px solid #e4e6eb;
+    background-color: #e4e6eb;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.right-topbar img{
+    width:16px;
+    height: 15px;
+    margin-top: 7px;
+}
+.right-topbar button:hover{
+    border: 1px solid #dee7f6;
+    background-color: #dee7f6;
+}
+
+.mid-content hr{
+    width: 100%;
+    color: #e7e9ec;
+    margin-bottom: 10px;
+}
+
+/* Midbar - Story Cards Starts Here */
+
+.story-cards{
+    height: 232px;
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Right Contents Starts Here */
