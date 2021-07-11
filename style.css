@@ -267,7 +267,7 @@ nav .right-header{
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    border:1px solid #000;
+    border:1px solid transparent;
     margin-right: 12px;
     margin-left: 8px;
 }
@@ -614,10 +614,76 @@ hr{
 
 /* Midbar - Story Cards Ends Here */
 
+/* Post Share(PhotoVideo/Live/FeelingActivity) Box Starts Here */
 
+/* Statusbox */
+.postshare-box{
+    height: 124px;
+    width: auto;
+    background-color: wheat;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+}
+.postshare-box .statusbox{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    margin-top: 13px;
+    margin-left: 9px;
+}
+.postshare-box .statusbox img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:1px solid transparent;
+    margin-right: 10px;
+}
+.statusbox input{
+    height: 40px;
+    width: 545px;
+    border-radius: 20px;
+    border:1px solid transparent;
+    background-color: var(--bg-color);
+    padding:12px 0px 9px 12px;
+}
+.statusbox input::placeholder{
+    font-family: var(--fb-font);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #65676b;
+    font-style: normal;
+}
 
+/* statusbox ends */
 
+.postshare-box hr{
+    width: 90%;
+    margin: 13px auto;
+    outline: none;
+    color: var(--bg-color);
+}
 
+/* Post Live Feeling */
+.postshare-box .post-live-feel{
+    margin-left: 9px;
+    width: 595px;
+    height: 40px;
+    margin-top:-4px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-live-feel .live-video{
+    height: auto;
+    width: 190px;
+    border-radius: 8px;
+    background-color: var(--bg-color);
+    border: 1px solid transparent;
+    text-align: center;
+}
 
 
 
