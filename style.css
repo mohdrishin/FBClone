@@ -710,10 +710,41 @@ hr{
 /* Post Share(PhotoVideo/Live/FeelingActivity) Box Ends Here */
 
 
+/* Create Room Box Starts Here */
 
-
-
-
+.mid-content .room-box{
+    width: auto;
+    height: 64px;
+    background-color: #fff;
+    margin-top: 16px;
+    border-radius: 10px;
+    box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.room-box .create-room{
+    height: 37px;
+    width: 147px;
+    border-radius: 16px;
+    background-color: transparent;
+    border:2px solid #dcdfe2;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fb-font);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #216fdb;
+    font-style: normal;
+}
+.create-room img{
+    height: 26px;
+    width: 24px;
+    margin-right: 8px;
+}
 
 
 
