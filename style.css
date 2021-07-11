@@ -489,6 +489,53 @@ hr{
     flex-direction: column;
     height: 198px;
     width:110px;
+    margin-top: 17px;
+    margin-right: 10px;
+    margin-left: 3px;
+    border-radius: 12px;
+    border:1px solid transparent;
+    overflow: hidden;
+    position: relative;
+    box-shadow:0px 2px 0px #fff;
+    /* background-color: tan; */
+}
+.story-one img{
+    height: 150px;
+}
+.story-one .plus{
+    width:35px;
+    height: 35px;
+    border:4px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 131px;
+    left: 32px;
+}
+.story-one h6{
+    color: #385898;
+    font-family: var(--fb-font);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 19px 20px;
+    background-color: #fff;
+    /* border:2px solid #fff; */
+    
+}
+
+
+
+
+
+
+
+
+
+.story-cards .story-two{
+    flex-direction: column;
+    height: 198px;
+    width:110px;
     background-color: turquoise;
     margin-top: 17px;
     margin-right: 10px;
