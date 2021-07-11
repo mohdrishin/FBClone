@@ -650,6 +650,10 @@ hr{
     background-color: var(--bg-color);
     padding:12px 0px 9px 12px;
 }
+.statusbox input:focus{
+    border: 0;
+    outline: none;
+}
 .statusbox input::placeholder{
     font-family: var(--fb-font);
     font-weight: 400;
@@ -761,7 +765,9 @@ hr{
     border: 1px solid transparent;
     margin:0 3px;
 }
-.room-users-more{
+
+/* Room Users Next Prev Button */
+.room-users-next{
     height: 48px;
     width: 48px;
     background-color: rgb(255, 255, 255);
@@ -775,12 +781,32 @@ hr{
     z-index: 10;
     border:0.5px solid #7a8087;
 }
-.room-users-more .fas{
+.room-users-next .fas{
+    padding:17px 19px;
+    color: #7a8087;
+}
+.room-users-prev{
+    height: 48px;
+    width: 48px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 25px;
+    top: 10px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 1px 1px #7a8087; */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    z-index: 10;
+    border:0.5px solid #7a8087;
+    visibility: hidden;
+}
+.room-users-prev .fas{
     padding:17px 19px;
     color: #7a8087;
 }
 
 
+/* Create Room Box Ends Here */
 
 
 
