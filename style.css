@@ -620,7 +620,7 @@ hr{
 .postshare-box{
     height: 124px;
     width: auto;
-    background-color: wheat;
+    background-color: #fff;
     margin-top: 10px;
     border-radius: 10px;
     box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
@@ -632,7 +632,7 @@ hr{
     align-items: center;
     /* justify-content: space-evenly; */
     margin-top: 13px;
-    margin-left: 9px;
+    margin-left: 12px;
 }
 .postshare-box .statusbox img{
     width: 40px;
@@ -669,7 +669,7 @@ hr{
 
 /* Post Live Feeling */
 .postshare-box .post-live-feel{
-    margin-left: 9px;
+    margin:0 12px;
     width: 595px;
     height: 40px;
     margin-top:-4px;
@@ -678,7 +678,7 @@ hr{
 }
 .post-live-feel .live-video{
     height: auto;
-    width: 190px;
+    width: 180px;
     border-radius: 8px;
     background-color: var(--bg-color);
     border: 1px solid transparent;
