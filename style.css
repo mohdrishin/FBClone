@@ -484,6 +484,7 @@ hr{
     display: flex;
     height: 232px;
     width: 100%;
+    position: relative;
 }
 .story-cards .story-one{
     flex-direction: column;
@@ -497,6 +498,7 @@ hr{
     overflow: hidden;
     position: relative;
     box-shadow:0px 2px 0px #fff;
+    cursor: pointer;
     /* background-color: tan; */
 }
 .story-one img{
@@ -524,32 +526,89 @@ hr{
     
 }
 
-
-
-
-
-
-
-
-
-.story-cards .story-two{
-    flex-direction: column;
+.story-two, .story-three, .story-four, .story-five{
     height: 198px;
     width:110px;
-    background-color: turquoise;
     margin-top: 17px;
     margin-right: 10px;
     margin-left: 3px;
     border-radius: 12px;
     border:1px solid transparent;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.story-two img, .story-three img, .story-four img, .story-five img{
+    height: 198px;
+}
+.story-two .story-author, .story-three .story-author, .story-four .story-author, .story-five .story-author{
+    z-index: 10;
+    width:38px;
+    height: 38px;
+    position: absolute;
+    top: 14px;
+    left: 9px;
+    border:4px solid #2376d6;
+    border-radius: 50%;
+}
+.story-two span, .story-three span, .story-four span, .story-five span{
+    font-family: var(--fb-font);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    left: 15px;
+    text-align: center;
+    max-width: 100px;
+    z-index: 10;
+    /* max-width: fit-content; */
 }
 
+.story-more{
+    height: 48px;
+    width: 48px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: -10px;
+    top: 94px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 1px 1px #7a8087; */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}
+.story-more .fas{
+    padding:17px 16px;
+    color: #7a8087;
+}
+.story-more title{
+    border-radius: 50%;
+}
 
+.story-more .tooltiptext {
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 12px;  
+    /* Position of the tooltip */
+    position: absolute;
+    z-index: 1;
+    right:-25px;
+    top: 50px;
+  }
+  .story-more:hover .tooltiptext {
+    visibility: visible;
+  }
 
-
-
-
-
+/* Midbar - Story Cards Ends Here */
 
 
 
