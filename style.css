@@ -676,17 +676,37 @@ hr{
     display: flex;
     justify-content: space-between;
 }
-.post-live-feel .live-video{
+.live-video, .photo-video, .feeling-activity{
     height: auto;
     width: 180px;
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.live-video:hover, .photo-video:hover, .feeling-activity:hover{
     border-radius: 8px;
     background-color: var(--bg-color);
     border: 1px solid transparent;
-    text-align: center;
+}
+.live-video img, .photo-video img, .feeling-activity img{
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+}
+.live-video span, .photo-video span, .feeling-activity span{
+    font-family: var(--fb-font);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #65676b;
+    font-style: normal;
 }
 
-
-
+/* Post Share(PhotoVideo/Live/FeelingActivity) Box Ends Here */
 
 
 
