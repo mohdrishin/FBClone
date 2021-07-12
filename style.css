@@ -808,7 +808,7 @@ hr{
 
 /* Create Room Box Ends Here */
 
-/* Normal Post Starts Here */
+/* Normal Post Starts Here using Grid Property */
 
 .normal-post{
     width: 100%;
@@ -828,7 +828,6 @@ hr{
     grid-column-end: 2; */
     /* Grid Simplifies */
     grid-area: 1/1/2/2;
-    
 }
 .normal-post .dpicture img{
     width: 42px;
@@ -896,10 +895,12 @@ hr{
 }
 .normal-post .image-area{
     grid-area: 3/1/4/4;
-    height: auto;
-    width: auto;
 }
-
+.normal-post .image-area img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 
