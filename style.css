@@ -902,25 +902,25 @@ hr{
     height: 100%;
     object-fit: cover;
 }
-.normal-post .like-comment-share{
+.normal-post .lcs-counter{
     grid-area: 4/1/5/4;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
-    margin-bottom: -10px;
+    margin-bottom: -18px;
 }
-.like-comment-share .like-section{
+.lcs-counter .like-section{
     height: 42px;
     width:80px;
     padding-left:30px;
     display: flex;
 }
-.like-comment-share .like-section .fas{
+.lcs-counter .like-section .fas{
     color: #046fe3;
     margin-right: 8px;
 }
-.like-comment-share .like-section a{
+.lcs-counter .like-section a{
     text-decoration: none;
     font-family: var(--fb-font);
     font-weight: 400;
@@ -928,7 +928,7 @@ hr{
     line-height: 20px;
     color: #65676b;   
 }
-.like-comment-share .comment-share-section{
+.lcs-counter .comment-share-section{
     height: 42px;
     width:fit-content;
     display: flex;
@@ -953,24 +953,61 @@ hr{
     color: #e7e9ec;
 }
 
-
-
-
-/* .post-details{
-    display: flex;
-    height:51px;
-    background-color: rgb(150, 150, 149);
-    width: 100%;
-    margin-top: 10px;
-    margin-left: 13px;
+.like-comment-share-button{
+    grid-area: 6/1/7/4;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: -5px;
+    
 }
-.post-details img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+
+.like-btn, .comment-btn, .share-btn{
+    height: auto;
+    width: 159px;
+    background-color: transparent;
+    border: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.like-btn:hover, .comment-btn:hover, .share-btn:hover{
+    border-radius: 8px;
+    background-color: var(--bg-color);
     border: 1px solid transparent;
-    margin-right: 10px;
-} */
+}
+.like-btn img, .comment-btn img, .share-btn img{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.like-btn span, .photo-video span, .share-btn span{
+    font-family: var(--fb-font);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #65676b;
+    font-style: normal;
+}
+.user-choice{
+    display: flex;
+    align-items: center;
+}
+.user-choice img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:1px solid transparent;
+    margin-right: 4px;
+}
+.user-choice .fas{
+    color: #6e737a;
+}
+
+/* Normal Post ends Here using Grid Property */
+
+
 
 
 
