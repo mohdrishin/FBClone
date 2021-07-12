@@ -812,14 +812,15 @@ hr{
 
 .normal-post{
     width: 100%;
-    height: 803px;
+    height: 780px;
     background-color: #fff;
     margin-top: 16px;
     border-radius: 10px;
     box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     display: grid;
     grid-template-columns: 0.5fr 5fr 0.5fr;
-    grid-template-rows: 0.6fr 0.5fr 5fr 0.6fr 0.6fr;
+    grid-template-rows: 0.6fr 0.5fr 5fr 0.3fr 0.1fr 0.3fr;
+    margin-bottom: 16px;
 }
 .normal-post .dpicture{
     /* grid-row-start: 1;
@@ -890,7 +891,7 @@ hr{
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    color: #050505    ;
+    color: #050505;
     font-style: normal;
 }
 .normal-post .image-area{
@@ -901,11 +902,56 @@ hr{
     height: 100%;
     object-fit: cover;
 }
+.normal-post .like-comment-share{
+    grid-area: 4/1/5/4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.like-comment-share .like-section{
+    height: 42px;
+    width:80px;
+    padding-left:30px;
+    display: flex;
+}
+.like-comment-share .like-section .fas{
+    color: #046fe3;
+    margin-right: 8px;
+}
+.like-comment-share .like-section a{
+    text-decoration: none;
+    font-family: var(--fb-font);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #65676b;   
+}
+.like-comment-share .comment-share-section{
+    height: 42px;
+    width:fit-content;
+    display: flex;
+    margin-right: 18px;
+}
+.comment-share-section a{
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: var(--fb-font);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #65676b;  
+}
+.comment-share-section a:hover, .like-section a:hover{
+    text-decoration: underline;
+}
 
-
-
-
-
+hr{
+    grid-area: 5/1/6/4;
+    width: 80%;
+    color: #e7e9ec;
+}
 
 
 
