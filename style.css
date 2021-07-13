@@ -232,6 +232,8 @@ nav .right-header{
     justify-content: flex-start;
     margin-left: 14px;
     margin-top: 18px;
+    position:sticky;
+    top:0px;
 }
 
 /* left side menus starts here */
