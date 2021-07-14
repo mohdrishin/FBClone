@@ -1146,12 +1146,30 @@ hr{
 
 /* Normal Post ends Here using Grid Property */
 
+/* Load More Content */
 
+.mid-content .load-more{
+    height: 120px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.load-more button{
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    border:1px solid #c7c9ce;
+    font-family: var(--fb-font);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #65676b;
+    cursor: pointer;
+}
 
-
-
-
-
+/* Load More Content Ends*/
 
 
 
