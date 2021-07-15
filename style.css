@@ -1175,14 +1175,27 @@ hr{
 
 
 
-
+/* Mid Contents Ends Here */
 
 /* Right Contents Starts Here */
 .right-content{
     display: flex;
     flex-direction: column;
-    flex-basis: 22%;
+    flex-basis: 26%;
 }
+.right-content .birthday-box{
+    height: 106px;
+    width: 315px;
+    background-color: #fff;
+    margin: 18px 0;
+    border-radius: 10px;
+    box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 .right-content span{
     margin-top: 19px;
     font-family: var(--fb-font);
