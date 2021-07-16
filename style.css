@@ -1191,9 +1191,48 @@ hr{
     border-radius: 10px;
     box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     display: flex;
-    align-items: center;
     flex-direction: column;
+    padding: 12px;
+    position: relative;
 }
+
+.birthday-status img{
+    margin-right: 7px;
+    height: 24px;
+}
+.birthday-box .birthday-status span{
+    font-family: var(--fb-font);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #65676b;
+    font-style: normal;
+}
+.birthday-box hr{
+    margin-top: 10px;
+    color: #e7e7e7;
+    width: 100%;
+}
+.right-content .birthday-box span{
+    font-family: var(--fb-font);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #65676b;
+    font-style: normal;
+    /* background-color: #1878f3; */
+    margin-top: 7px;
+}
+.right-content .birthday-box .fas{
+    position: absolute;
+    top:8px;
+    right: 10px;
+    color:#dee7f6;
+}
+
+
+
+
 
 
 .right-content span{
@@ -1208,7 +1247,7 @@ hr{
 .right-content hr{
     margin-top: 15px;
     color: #e7e9ec;
-    width: 100%;
+    width: 95%;
     /* margin-bottom: 10px; */
 }
 /* .rightside-mypages{
